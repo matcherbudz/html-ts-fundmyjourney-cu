@@ -63,6 +63,8 @@ After doing the setup above, do the following
 
 1. Run the liveserver either click the Go Live button in your vscode or right click the index.html and open with live server
 
+http://localhost:5500/
+
 ### Typescript Edition
 
 After doing the setup from above, do the following
