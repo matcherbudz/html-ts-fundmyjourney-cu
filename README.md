@@ -1,5 +1,8 @@
 # Welcome to my Fund my journey website!
 
+## NEVER EXPOSE YOUR PRIVATE KEY BY PUTTING IT IN THE .ENV FILE USE CAST WALLET IMPORT INSTEAD! `cast wallet import account_name --interactive`
+## https://awesamarth.hashnode.dev/the-best-way-to-import-your-private-key-in-foundry
+
 This is a minimal website to learn how to use HTML with javascript and typescript to connect a website to a FundMe smart contract. This allows people to fund a smart contract I learned how to build with cyfrin updraft that only the owner can withdraw from and has a function that uses a mapping that ties the funder to the amount funded for viewing who funded how much.
 
 https://github.com/matcherbudz/foundry-fund-me-f25
