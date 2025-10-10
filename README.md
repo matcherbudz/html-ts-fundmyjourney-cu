@@ -107,6 +107,6 @@ The shortcut to comment and uncomment a line in wsl for use is `ctrl + /`
 pnpm vite
 ```
 
-3. Open your browser to whatever the command above says, ie: `http://localhost:5173/`
+3. Open your browser to whatever the command above says, ie: http://localhost:5173/
 
 Again the website should be working and you can test the functionality.
