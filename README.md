@@ -1,10 +1,12 @@
 # Welcome to my Fund my journey website!
 
-This is a minimal website to learn how to use HTML with javascript and typescript to connect a website to a FundMe smart contract I learned how to build with cyfrin updraft!
+This is a minimal website to learn how to use HTML with javascript and typescript to connect a website to a FundMe smart contract. This allows people to fund a smart contract I learned how to build with cyfrin updraft that only the owner can withdraw from and has a function that uses a mapping that ties the funder to the amount funded for viewing who funded how much.
 
 https://github.com/matcherbudz/foundry-fund-me-f25
 
-There are 2 different ways to run this codebase.
+# Note: the constants-ts.ts is hardcoded with the anvil fundme contract address and abi, if you want to test with a fundme contract deployed to sepolia change the contract address in the contants-ts.ts
+
+There are 2 different ways to run this codebase. 
 
 1. Javascript Edition
 
@@ -65,6 +67,8 @@ After doing the setup above, do the following
 
 http://localhost:5500/
 
+You should now see the website and test its functionality. Connecting a wallet, checking the FuneMe contract total balance, a Send me ETH form where people can send the contract ETH, and a management section for the owner to withdraw and for anyone who funded the contract to see how much they funded.
+
 ### Typescript Edition
 
 After doing the setup from above, do the following
@@ -102,4 +106,4 @@ pnpm vite
 
 3. Open your browser to whatever the command above says, ie: `http://localhost:5173/`
 
-4. Press some buttons!
+Again the website should be working and you can test the functionality.
