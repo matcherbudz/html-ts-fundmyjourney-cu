@@ -1,6 +1,6 @@
 # Welcome to my Fund my journey website!
 
-This is a website for the minimal code form the foundry full course, in specific, the `FundMe` codebase, which can be found here:
+This is a minimal website to learn how to use HTML with javascript and typescript to connect a website to a FundMe smart contract I learned how to build with cyfrin updraft!
 
 https://github.com/matcherbudz/foundry-fund-me-f25
 
