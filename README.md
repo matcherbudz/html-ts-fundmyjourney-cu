@@ -110,3 +110,5 @@ pnpm vite
 3. Open your browser to whatever the command above says, ie: http://localhost:5173/
 
 Again the website should be working and you can test the functionality.
+
+If you're reading this thank you for checking out my project! :)
