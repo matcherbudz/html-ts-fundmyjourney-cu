@@ -158,7 +158,7 @@ async function getbalance(): Promise<void> {
             address: contractAddress as Address
         })
         console.log(formatEther(balance))
-        balanceButton.innerHTML = `Coffee funds balance ${formatEther(balance)} Ethereum`
+        balanceButton.innerHTML = `Balance ${formatEther(balance)} Ethereum`
     }
 }
 
